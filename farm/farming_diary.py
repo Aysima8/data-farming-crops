@@ -13,13 +13,13 @@ print("\n\n📝 Day One: Corn")
 corn1 = Corn()
 
 # 2. Water the corn crop
-Corn.water()
+corn1.water()
 
 # 3. Print "The corn crop produced ## grains"
-print(f"The corn crop produced {Corn.grains} grains")
+print(f"The corn crop produced {corn1.grains} grains")
 
 # 4. Print "The corn crop is ripe" or "The corn crop is not ripe"
-if Corn.ripe():
+if corn1.ripe():
     print("The corn crop is ripe")
 else:
     print("The corn crop is not ripe")

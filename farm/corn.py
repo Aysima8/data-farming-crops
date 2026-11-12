@@ -1,4 +1,4 @@
-class corn:
+class Corn:
     def __init__(self):
         self.grains = 0
       
@@ -10,5 +10,3 @@ class corn:
             return True
         else:
             return False
-        
-      

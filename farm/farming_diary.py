@@ -10,16 +10,19 @@ from farm.corn import Corn
 print("\n\n📝 Day One: Corn")
 
 # 1. Instantiate a corn crop
-pass  # YOUR CODE HERE
+corn1 = Corn()
 
 # 2. Water the corn crop
-pass  # YOUR CODE HERE
+Corn.water()
 
 # 3. Print "The corn crop produced ## grains"
-pass  # YOUR CODE HERE
+print(f"The corn crop produced {Corn.grains} grains")
 
 # 4. Print "The corn crop is ripe" or "The corn crop is not ripe"
-pass  # YOUR CODE HERE
+if Corn.ripe():
+    print("The corn crop is ripe")
+else:
+    print("The corn crop is not ripe")
 
 print("\n\n📝 Day Two: Rice")
 
